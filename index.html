@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grid-container">
+
+    <div class="item0">
+      <header>
+        <h2 class="title">My Portfolio</h2>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <nav id="nav">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact Us</a>
+        </nav>
+      </header>
+    </div>
+
+
+    <div class="item2">
+      <div class="profile">
+        <img src="angeline.png" alt="Profile Picture">
+      </div>
+    </div>
+
+   
+    <div class="item3">
+      <div class="intro">
+        <h1>HELLO,</h1>
+        <h1>I'M ANGELINE ABELLA</h1>
+        <p>AND I AM AN INFO TECH STUDENT</p>
+        <span>ITS 300 - C</span>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav");
+
+    menuToggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>+
