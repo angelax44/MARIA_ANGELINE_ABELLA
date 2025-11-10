@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <div class="grid-container">
+
+    <div class="item0">
+      <header>
+        <h2 class="title">Contact Me</h2>
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <nav id="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+      </header>
+    </div>
+
+    <div class="item1">
+      <div class="contact-section">
+        <h1>Let’s Connect!</h1>
+        <p>Reach me easily through these platforms:</p>
+
+        <div class="contact-info">
+
+          <div class="contact-card">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Email</h3>
+            <p><a href="mailto:abellaangeline07@gmail.com">abellaangeline07@gmail.com</a></p>
+          </div>
+
+          <div class="contact-card">
+            <i class="fa-solid fa-phone"></i>
+            <h3>Phone</h3>
+            <p><a href="tel:09983089624">0998 308 9624</a></p>
+          </div>
+
+          <div class="contact-card">
+            <i class="fa-brands fa-instagram"></i>
+            <h3>Instagram</h3>
+            <p><a href="https://www.instagram.com/EVERLASTLINE_07" target="_blank">@EVERLASTLINE_07</a></p>
+          </div>
+
+          <div class="contact-card">
+            <i class="fa-brands fa-facebook"></i>
+            <h3>Facebook</h3>
+            <p><a href="https://www.facebook.com/angeline.abella.65006" target="_blank">Angeline Abella</a></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const nav = document.getElementById("nav");
+
+    menuToggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+  </script>
+</body>
+</html>
